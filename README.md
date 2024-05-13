@@ -1,5 +1,7 @@
 # recreational-land-use-prediction
 
+![Points show the distribution of training data](training_data.png "Training Data") ![Predictions missed by each model](results.png "Results of Prediction")
+
 ## Notebooks
 
 Five notebooks detail the steps required for cleaning, visualization, and model training.
