@@ -10,7 +10,7 @@ Five notebooks detail the steps required for cleaning, visualization, and model 
 - `creating_raster_images.ipynb`: Shows the process of using the data set created previously to mask out the appropriate elevation values for each area included in the analysis
 - `creating_semivariograms.ipynb`: This uses the elevation values obtained to compute a measure of texture. This step creates the features the models are trained on
 - `model_training_evaluation.ipynb`: Establishes training and testing data sets. Also evaluates the predictive performance of the models
-- `visualization_exploration.ipynb`: Explores the distribution of areas involved in the study and what ares the models failed to correctly predict
+- `visualization_exploration.ipynb`: Explores the distribution of areas involved in the study and what areas the models failed to correctly predict
 
 ## Motivation and Problem Statement
 
@@ -18,7 +18,7 @@ Parks and access to nature represent an enormous good for those with access to t
 
 This influence isn’t just an existential concept, parks contribute in measurable ways to the health of people using them (Foderaro, Klein; 2023). A study in the Journal of Physical Activity and Health found that physical activity performed outside was associated with “better stress management, outlook and health perceptions” (Puett et al., 2014).
 
-Many Americans don’t meet the recommended criteria for fitness. According to a study by the Office of Disease Prevention and Health Promotion only 19% of women and 26% of men meet aerobic and muscle-strengthening guidelines in the United States (U.S. Department of Health and Human Services, 2018). All this is to say that parks aren’t just something nice to have, they have a vital role to play in creating a healthier society. Mountain Biking provides excellent cardiovascular and strength exercise as well as balance and stability practice. In fact, research suggests that complex activities that require good proprioception may be extra beneficial for those with neurodegenerative disorders (Patel et al., 2023). Various levels of difficulty mean that many ages individuals at different and levels of fitness can participate.
+Many Americans don’t meet the recommended criteria for fitness. According to a study by the Office of Disease Prevention and Health Promotion only 19% of women and 26% of men meet aerobic and muscle-strengthening guidelines in the United States (U.S. Department of Health and Human Services, 2018). All this is to say that parks aren’t just something nice to have, they have a vital role to play in creating a healthier society. Mountain Biking provides excellent cardiovascular and strength exercise as well as balance and stability practice. In fact, research suggests that complex activities that require good proprioception may be extra beneficial for those with neurodegenerative disorders (Patel et al., 2023). Various levels of difficulty mean that many ages and levels of fitness can participate.
 
 North Carolina (NC) has 100 counties, Wake County alone has over 400 thousand individual land parcels. With finite resources available to allocate toward the task of park creation an efficient method to narrow the search for new locations is needed.
 
