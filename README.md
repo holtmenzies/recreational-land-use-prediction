@@ -38,11 +38,10 @@ The state of NC makes shape files for the boundary of each NC County available v
 
 ### North Carolina Natural Heritage Program's Managed Areas
 
-From the Natural Heritage:
+From the Natural Heritage Program:
 > "The North Carolina Natural Heritage Program's Managed Areas are a collection of properties and easements where natural resource conservation is one of the primary management goals or are of conservation interest."
 
 For this project this data set was used to identify parkland. Several steps were taken to exclude areas not relevant for this analysis
-
 
 > *North Carolina Natural Heritage Program. 2024. Geographic Information System (GIS) data. NCDNCR, Raleigh, North Carolina. Available at www.ncnhp.org. (Accessed: 5/9/2024).*
 
