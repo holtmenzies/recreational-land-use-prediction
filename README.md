@@ -36,6 +36,16 @@ This dataset represents elevation for land in NC in 20-foot increments for the e
 
 The state of NC makes shape files for the boundary of each NC County available via the NC OneMap data platform. This data set played an important role creating a unified dataset on which to train the models. The data pulled down from OSM did not have information denoting the enclosing county and therefore no way to map to the corresponding raster elevation. The county boundaries could be used to map the correct county to each OSM object.
 
+### North Carolina Natural Heritage Program's Managed Areas
+
+From the Natural Heritage:
+> "The North Carolina Natural Heritage Program's Managed Areas are a collection of properties and easements where natural resource conservation is one of the primary management goals or are of conservation interest."
+
+For this project this data set was used to identify parkland. Several steps were taken to exclude areas not relevant for this analysis
+
+
+> *North Carolina Natural Heritage Program. 2024. Geographic Information System (GIS) data. NCDNCR, Raleigh, North Carolina. Available at www.ncnhp.org. (Accessed: 5/9/2024).*
+
 ### OpenStreetMap (OSM)
 
 OpenStreetMap (OSM) (https://www.openstreetmap.org) is an open geographic database. Almost anybody can contribute information to the database. Consequently, it has extremely broad coverage in terms of how much of the earth is represented. I used Overpass Turbo (https://overpass-turbo.eu/) to query the OSM database for areas that allowed mountain biking. Overpass is an entire query language unto itself. Given that I have limited the scope of this analysis to NC, I used the Overpass Turbo Query Wizard with the following queries 
